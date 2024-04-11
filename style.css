@@ -90,7 +90,7 @@ body{
     gap: 20px;
     border-radius: 40px;
     position: relative;
-    bottom: 30px;
+    bottom: -30px;
     margin: auto;
 }
 .body2 span{
