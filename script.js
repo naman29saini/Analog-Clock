@@ -26,6 +26,9 @@ hand for seconds:-
 let hr=document.getElementById("hour");
 let min=document.getElementById("min");
 let sec=document.getElementById("sec");
+let hr2=document.getElementById("hr")
+let min2=document.getElementById("mn")
+let sec2=document.getElementById("sc")
 
 function displayTime()
 {
@@ -42,6 +45,9 @@ function displayTime()
     hr.style.transform=`rotate(${hRotation}deg)`;
     min.style.transform=`rotate(${mRotataion}deg)`;
     sec.style.transform=`rotate(${sRotataion}deg)`;
+    hr2.innerHTML=date.getHours();
+    min2.innerHTML=mm;
+    sec2.innerHTML=ss;
 }
 
 setInterval(displayTime, 1000);
