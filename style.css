@@ -83,7 +83,7 @@ body{
     background-color: rgb(23, 23, 23);
     color: white;
     height: 12vh;
-    width: 35vw;
+    /* width: 35vw; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,5 +124,20 @@ footer p{
     .body{
         height: 120vh;
         width: 129%;
+    }
+    .body2{
+        left: 77px;
+        bottom:146px;
+    }
+    .body2 span{
+        height: 30px;
+        width: 30px;
+        border: 2px solid palegoldenrod;
+        border-radius: 5px;
+        padding: 2px 5px;
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 10px;
     }
 }
