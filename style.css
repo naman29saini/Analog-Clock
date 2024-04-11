@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 78vh;
+    min-height: 70vh;
     background-color: black;
     /* width: 100vw; */
 }
@@ -122,12 +122,12 @@ footer p{
         width: 130%;
     }
     .body{
-        height: 120vh;
+        height: 105vh;
         width: 129%;
     }
     .body2{
-        left: 77px;
-        bottom:146px;
+        left: 70px;
+        bottom:50px;
     }
     .body2 span{
         height: 30px;
